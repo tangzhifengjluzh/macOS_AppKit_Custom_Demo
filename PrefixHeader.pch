@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  macOS_AppKit_Custom_Demo
+//
+//  Created by xia luzheng on 2019/11/21.
+//  Copyright © 2019 xia luzheng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define kColorFromRGB(rgbValue) [NSColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]//16f进制颜色
+
+#define kGetImage(imageName)       [NSImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+#define kHWSliderTextFieldViewWidth                          50
+#define kHWSliderTextFieldViewHeight                         25
+#define kSliderTextViewPadding                         4
+#define kSliderTextViewMaginLeft                         5
+#define kContentView                self.window.contentView
+//static NSInteger   const kSliderTextViewPadding = 4;//中间的子view 中间间隔
+//static NSInteger   const kSliderTextViewMaginLeft = 5;//中间的子view 居左边
+#import "HWToolView.h"
+
+#import "HWAngleDeviationSliderCell.h"
+#import "HWSpeedSliderCell.h"
+#import "HWSteeringGearSliderCell.h"
+#import "HWToolSliderCell.h"
+#import "HWImageTitleButton.h"
+#import "HWDashBoardTemperatureView.h"
+#import "HWCheckbox.h"
+#import "HWCenterScrollView.h"
+#import "HWCenterView.h"
+#import "Header.h"
+#import "HWSegmentedControl.h"
+#import "Masonry.h"
+#import "HWDashLineView.h"
+#import "HWProgressView.h"
+#import "HWTopBlackView.h"
+#import "HWDashBoardPostionView.h"
+#endif /* PrefixHeader_pch */

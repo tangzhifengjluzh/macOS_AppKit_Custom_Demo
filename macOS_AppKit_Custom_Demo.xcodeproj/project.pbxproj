@@ -11,6 +11,34 @@
 		CCD6763B238621E700B857B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD6763A238621E700B857B0 /* Assets.xcassets */; };
 		CCD6763E238621E700B857B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD6763C238621E700B857B0 /* MainMenu.xib */; };
 		CCD67641238621E700B857B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD67640238621E700B857B0 /* main.m */; };
+		CCD676512386220900B857B0 /* HWSpeedSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676492386220900B857B0 /* HWSpeedSliderCell.m */; };
+		CCD676522386220900B857B0 /* HWToolSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6764C2386220900B857B0 /* HWToolSliderCell.m */; };
+		CCD676532386220900B857B0 /* HWAngleDeviationSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6764F2386220900B857B0 /* HWAngleDeviationSliderCell.m */; };
+		CCD676542386220900B857B0 /* HWSteeringGearSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676502386220900B857B0 /* HWSteeringGearSliderCell.m */; };
+		CCD676732386256100B857B0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676592386256100B857B0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CCD676742386256100B857B0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676622386256100B857B0 /* ViewController+MASAdditions.m */; };
+		CCD676752386256100B857B0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676662386256100B857B0 /* MASCompositeConstraint.m */; };
+		CCD676762386256100B857B0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676672386256100B857B0 /* MASConstraintMaker.m */; };
+		CCD676772386256100B857B0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676682386256100B857B0 /* MASLayoutConstraint.m */; };
+		CCD676782386256100B857B0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676692386256100B857B0 /* NSArray+MASAdditions.m */; };
+		CCD676792386256100B857B0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6766A2386256100B857B0 /* View+MASAdditions.m */; };
+		CCD6767A2386256100B857B0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6766D2386256100B857B0 /* MASConstraint.m */; };
+		CCD6767B2386256100B857B0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6766F2386256100B857B0 /* MASViewConstraint.m */; };
+		CCD6767C2386256100B857B0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676702386256100B857B0 /* MASViewAttribute.m */; };
+		CCD6767D2386256100B857B0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCD676712386256100B857B0 /* Info.plist */; };
+		CCD676812386296E00B857B0 /* HWImageTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676802386296E00B857B0 /* HWImageTitleButton.m */; };
+		CCD67685238634B300B857B0 /* HWDashBoardTemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD67684238634B300B857B0 /* HWDashBoardTemperatureView.m */; };
+		CCD67689238637B300B857B0 /* HWCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD67688238637B300B857B0 /* HWCheckbox.m */; };
+		CCD6768C2386419B00B857B0 /* NSButton+TitleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6768B2386419B00B857B0 /* NSButton+TitleColor.m */; };
+		CCD67690238642D400B857B0 /* HWCenterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6768F238642D400B857B0 /* HWCenterScrollView.m */; };
+		CCD676932386433C00B857B0 /* HWCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676912386433C00B857B0 /* HWCenterView.m */; };
+		CCD67696238649CA00B857B0 /* HWSliderTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD67695238649CA00B857B0 /* HWSliderTextFieldView.m */; };
+		CCD6769B23865B1800B857B0 /* HWSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6769A23865B1800B857B0 /* HWSegmentedControl.m */; };
+		CCD6769F23865D0600B857B0 /* HWDashLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6769E23865D0600B857B0 /* HWDashLineView.m */; };
+		CCD676A323865D9100B857B0 /* HWProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676A223865D9100B857B0 /* HWProgressView.m */; };
+		CCD676A723865F8800B857B0 /* HWTopBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676A523865F8800B857B0 /* HWTopBlackView.m */; };
+		CCD676AA2386672500B857B0 /* HWDashBoardPostionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676A82386672400B857B0 /* HWDashBoardPostionView.m */; };
+		CCD676AE23866B1000B857B0 /* HWToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676AC23866B1000B857B0 /* HWToolView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +50,68 @@
 		CCD6763F238621E700B857B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCD67640238621E700B857B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCD67642238621E700B857B0 /* macOS_AppKit_Custom_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_AppKit_Custom_Demo.entitlements; sourceTree = "<group>"; };
+		CCD676492386220900B857B0 /* HWSpeedSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSpeedSliderCell.m; sourceTree = "<group>"; };
+		CCD6764A2386220900B857B0 /* HWAngleDeviationSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAngleDeviationSliderCell.h; sourceTree = "<group>"; };
+		CCD6764B2386220900B857B0 /* HWSteeringGearSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSteeringGearSliderCell.h; sourceTree = "<group>"; };
+		CCD6764C2386220900B857B0 /* HWToolSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToolSliderCell.m; sourceTree = "<group>"; };
+		CCD6764D2386220900B857B0 /* HWToolSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToolSliderCell.h; sourceTree = "<group>"; };
+		CCD6764E2386220900B857B0 /* HWSpeedSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSpeedSliderCell.h; sourceTree = "<group>"; };
+		CCD6764F2386220900B857B0 /* HWAngleDeviationSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWAngleDeviationSliderCell.m; sourceTree = "<group>"; };
+		CCD676502386220900B857B0 /* HWSteeringGearSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSteeringGearSliderCell.m; sourceTree = "<group>"; };
+		CCD676552386223500B857B0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CCD676582386256100B857B0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		CCD676592386256100B857B0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		CCD6765A2386256100B857B0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		CCD6765B2386256100B857B0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CCD6765C2386256100B857B0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CCD6765D2386256100B857B0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		CCD6765E2386256100B857B0 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		CCD6765F2386256100B857B0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		CCD676602386256100B857B0 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		CCD676612386256100B857B0 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		CCD676622386256100B857B0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		CCD676632386256100B857B0 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		CCD676642386256100B857B0 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		CCD676652386256100B857B0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		CCD676662386256100B857B0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		CCD676672386256100B857B0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		CCD676682386256100B857B0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CCD676692386256100B857B0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		CCD6766A2386256100B857B0 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		CCD6766B2386256100B857B0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CCD6766C2386256100B857B0 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		CCD6766D2386256100B857B0 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		CCD6766E2386256100B857B0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CCD6766F2386256100B857B0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		CCD676702386256100B857B0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		CCD676712386256100B857B0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD6767F2386296E00B857B0 /* HWImageTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWImageTitleButton.h; sourceTree = "<group>"; };
+		CCD676802386296E00B857B0 /* HWImageTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWImageTitleButton.m; sourceTree = "<group>"; };
+		CCD67683238634B300B857B0 /* HWDashBoardTemperatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDashBoardTemperatureView.h; sourceTree = "<group>"; };
+		CCD67684238634B300B857B0 /* HWDashBoardTemperatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDashBoardTemperatureView.m; sourceTree = "<group>"; };
+		CCD67687238637B300B857B0 /* HWCheckbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWCheckbox.h; sourceTree = "<group>"; };
+		CCD67688238637B300B857B0 /* HWCheckbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCheckbox.m; sourceTree = "<group>"; };
+		CCD6768A2386419B00B857B0 /* NSButton+TitleColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSButton+TitleColor.h"; sourceTree = "<group>"; };
+		CCD6768B2386419B00B857B0 /* NSButton+TitleColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSButton+TitleColor.m"; sourceTree = "<group>"; };
+		CCD6768E238642D400B857B0 /* HWCenterScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCenterScrollView.h; sourceTree = "<group>"; };
+		CCD6768F238642D400B857B0 /* HWCenterScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCenterScrollView.m; sourceTree = "<group>"; };
+		CCD676912386433C00B857B0 /* HWCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCenterView.m; sourceTree = "<group>"; };
+		CCD676922386433C00B857B0 /* HWCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCenterView.h; sourceTree = "<group>"; };
+		CCD67694238649CA00B857B0 /* HWSliderTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSliderTextFieldView.h; sourceTree = "<group>"; };
+		CCD67695238649CA00B857B0 /* HWSliderTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSliderTextFieldView.m; sourceTree = "<group>"; };
+		CCD6769723864DD800B857B0 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CCD6769923865B1800B857B0 /* HWSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSegmentedControl.h; sourceTree = "<group>"; };
+		CCD6769A23865B1800B857B0 /* HWSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSegmentedControl.m; sourceTree = "<group>"; };
+		CCD6769D23865D0600B857B0 /* HWDashLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDashLineView.h; sourceTree = "<group>"; };
+		CCD6769E23865D0600B857B0 /* HWDashLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDashLineView.m; sourceTree = "<group>"; };
+		CCD676A123865D9100B857B0 /* HWProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWProgressView.h; sourceTree = "<group>"; };
+		CCD676A223865D9100B857B0 /* HWProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWProgressView.m; sourceTree = "<group>"; };
+		CCD676A523865F8800B857B0 /* HWTopBlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTopBlackView.m; sourceTree = "<group>"; };
+		CCD676A623865F8800B857B0 /* HWTopBlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTopBlackView.h; sourceTree = "<group>"; };
+		CCD676A82386672400B857B0 /* HWDashBoardPostionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDashBoardPostionView.m; sourceTree = "<group>"; };
+		CCD676A92386672400B857B0 /* HWDashBoardPostionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDashBoardPostionView.h; sourceTree = "<group>"; };
+		CCD676AC23866B1000B857B0 /* HWToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToolView.m; sourceTree = "<group>"; };
+		CCD676AD23866B1000B857B0 /* HWToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToolView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +128,8 @@
 		CCD6762B238621E600B857B0 = {
 			isa = PBXGroup;
 			children = (
+				CCD6769723864DD800B857B0 /* Header.h */,
+				CCD676552386223500B857B0 /* PrefixHeader.pch */,
 				CCD67636238621E600B857B0 /* macOS_AppKit_Custom_Demo */,
 				CCD67635238621E600B857B0 /* Products */,
 			);
@@ -54,8 +146,19 @@
 		CCD67636238621E600B857B0 /* macOS_AppKit_Custom_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				CCD67637238621E600B857B0 /* AppDelegate.h */,
+				CCD676562386256100B857B0 /* Vender */,
+				CCD6767E2386296100B857B0 /* NSButton */,
+				CCD67648238621F300B857B0 /* NSSlider */,
+				CCD676822386348A00B857B0 /* dashboard */,
+				CCD676862386378900B857B0 /* CheckBox */,
+				CCD6768D238642AA00B857B0 /* DragView */,
+				CCD6769823865B1800B857B0 /* 自定义Sege */,
+				CCD6769C23865D0600B857B0 /* 虚线 */,
+				CCD676A023865D9100B857B0 /* 进度条 */,
+				CCD676A423865F6600B857B0 /* NSTabtemView */,
+				CCD676AB23866AFE00B857B0 /* 圆角阴影视图 */,
 				CCD67638238621E600B857B0 /* AppDelegate.m */,
+				CCD67637238621E600B857B0 /* AppDelegate.h */,
 				CCD6763A238621E700B857B0 /* Assets.xcassets */,
 				CCD6763C238621E700B857B0 /* MainMenu.xib */,
 				CCD6763F238621E700B857B0 /* Info.plist */,
@@ -63,6 +166,159 @@
 				CCD67642238621E700B857B0 /* macOS_AppKit_Custom_Demo.entitlements */,
 			);
 			path = macOS_AppKit_Custom_Demo;
+			sourceTree = "<group>";
+		};
+		CCD67648238621F300B857B0 /* NSSlider */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6764A2386220900B857B0 /* HWAngleDeviationSliderCell.h */,
+				CCD6764F2386220900B857B0 /* HWAngleDeviationSliderCell.m */,
+				CCD6764E2386220900B857B0 /* HWSpeedSliderCell.h */,
+				CCD676492386220900B857B0 /* HWSpeedSliderCell.m */,
+				CCD6764B2386220900B857B0 /* HWSteeringGearSliderCell.h */,
+				CCD676502386220900B857B0 /* HWSteeringGearSliderCell.m */,
+				CCD6764D2386220900B857B0 /* HWToolSliderCell.h */,
+				CCD6764C2386220900B857B0 /* HWToolSliderCell.m */,
+			);
+			path = NSSlider;
+			sourceTree = "<group>";
+		};
+		CCD676562386256100B857B0 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				CCD676572386256100B857B0 /* Masonry */,
+				CCD676722386256100B857B0 /* XMLReader */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		CCD676572386256100B857B0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				CCD676582386256100B857B0 /* MASCompositeConstraint.h */,
+				CCD676592386256100B857B0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CCD6765A2386256100B857B0 /* MASConstraint+Private.h */,
+				CCD6765B2386256100B857B0 /* MASLayoutConstraint.h */,
+				CCD6765C2386256100B857B0 /* NSArray+MASShorthandAdditions.h */,
+				CCD6765D2386256100B857B0 /* MASConstraintMaker.h */,
+				CCD6765E2386256100B857B0 /* View+MASAdditions.h */,
+				CCD6765F2386256100B857B0 /* NSArray+MASAdditions.h */,
+				CCD676602386256100B857B0 /* MASUtilities.h */,
+				CCD676612386256100B857B0 /* MASViewAttribute.h */,
+				CCD676622386256100B857B0 /* ViewController+MASAdditions.m */,
+				CCD676632386256100B857B0 /* MASViewConstraint.h */,
+				CCD676642386256100B857B0 /* MASConstraint.h */,
+				CCD676652386256100B857B0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				CCD676662386256100B857B0 /* MASCompositeConstraint.m */,
+				CCD676672386256100B857B0 /* MASConstraintMaker.m */,
+				CCD676682386256100B857B0 /* MASLayoutConstraint.m */,
+				CCD676692386256100B857B0 /* NSArray+MASAdditions.m */,
+				CCD6766A2386256100B857B0 /* View+MASAdditions.m */,
+				CCD6766B2386256100B857B0 /* View+MASShorthandAdditions.h */,
+				CCD6766C2386256100B857B0 /* Masonry.h */,
+				CCD6766D2386256100B857B0 /* MASConstraint.m */,
+				CCD6766E2386256100B857B0 /* ViewController+MASAdditions.h */,
+				CCD6766F2386256100B857B0 /* MASViewConstraint.m */,
+				CCD676702386256100B857B0 /* MASViewAttribute.m */,
+				CCD676712386256100B857B0 /* Info.plist */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		CCD676722386256100B857B0 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XMLReader;
+			sourceTree = "<group>";
+		};
+		CCD6767E2386296100B857B0 /* NSButton */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6768A2386419B00B857B0 /* NSButton+TitleColor.h */,
+				CCD6768B2386419B00B857B0 /* NSButton+TitleColor.m */,
+				CCD6767F2386296E00B857B0 /* HWImageTitleButton.h */,
+				CCD676802386296E00B857B0 /* HWImageTitleButton.m */,
+			);
+			path = NSButton;
+			sourceTree = "<group>";
+		};
+		CCD676822386348A00B857B0 /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CCD676A92386672400B857B0 /* HWDashBoardPostionView.h */,
+				CCD676A82386672400B857B0 /* HWDashBoardPostionView.m */,
+				CCD67683238634B300B857B0 /* HWDashBoardTemperatureView.h */,
+				CCD67684238634B300B857B0 /* HWDashBoardTemperatureView.m */,
+			);
+			path = dashboard;
+			sourceTree = "<group>";
+		};
+		CCD676862386378900B857B0 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				CCD67687238637B300B857B0 /* HWCheckbox.h */,
+				CCD67688238637B300B857B0 /* HWCheckbox.m */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		CCD6768D238642AA00B857B0 /* DragView */ = {
+			isa = PBXGroup;
+			children = (
+				CCD676922386433C00B857B0 /* HWCenterView.h */,
+				CCD676912386433C00B857B0 /* HWCenterView.m */,
+				CCD6768E238642D400B857B0 /* HWCenterScrollView.h */,
+				CCD6768F238642D400B857B0 /* HWCenterScrollView.m */,
+				CCD67694238649CA00B857B0 /* HWSliderTextFieldView.h */,
+				CCD67695238649CA00B857B0 /* HWSliderTextFieldView.m */,
+			);
+			path = DragView;
+			sourceTree = "<group>";
+		};
+		CCD6769823865B1800B857B0 /* 自定义Sege */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6769923865B1800B857B0 /* HWSegmentedControl.h */,
+				CCD6769A23865B1800B857B0 /* HWSegmentedControl.m */,
+			);
+			path = "自定义Sege";
+			sourceTree = "<group>";
+		};
+		CCD6769C23865D0600B857B0 /* 虚线 */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6769D23865D0600B857B0 /* HWDashLineView.h */,
+				CCD6769E23865D0600B857B0 /* HWDashLineView.m */,
+			);
+			path = "虚线";
+			sourceTree = "<group>";
+		};
+		CCD676A023865D9100B857B0 /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				CCD676A123865D9100B857B0 /* HWProgressView.h */,
+				CCD676A223865D9100B857B0 /* HWProgressView.m */,
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
+		CCD676A423865F6600B857B0 /* NSTabtemView */ = {
+			isa = PBXGroup;
+			children = (
+				CCD676A623865F8800B857B0 /* HWTopBlackView.h */,
+				CCD676A523865F8800B857B0 /* HWTopBlackView.m */,
+			);
+			path = NSTabtemView;
+			sourceTree = "<group>";
+		};
+		CCD676AB23866AFE00B857B0 /* 圆角阴影视图 */ = {
+			isa = PBXGroup;
+			children = (
+				CCD676AD23866B1000B857B0 /* HWToolView.h */,
+				CCD676AC23866B1000B857B0 /* HWToolView.m */,
+			);
+			path = "圆角阴影视图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +380,7 @@
 			files = (
 				CCD6763B238621E700B857B0 /* Assets.xcassets in Resources */,
 				CCD6763E238621E700B857B0 /* MainMenu.xib in Resources */,
+				CCD6767D2386256100B857B0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +391,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD6767B2386256100B857B0 /* MASViewConstraint.m in Sources */,
+				CCD67696238649CA00B857B0 /* HWSliderTextFieldView.m in Sources */,
+				CCD676A323865D9100B857B0 /* HWProgressView.m in Sources */,
+				CCD6768C2386419B00B857B0 /* NSButton+TitleColor.m in Sources */,
+				CCD676932386433C00B857B0 /* HWCenterView.m in Sources */,
+				CCD676512386220900B857B0 /* HWSpeedSliderCell.m in Sources */,
+				CCD676762386256100B857B0 /* MASConstraintMaker.m in Sources */,
+				CCD67685238634B300B857B0 /* HWDashBoardTemperatureView.m in Sources */,
+				CCD676542386220900B857B0 /* HWSteeringGearSliderCell.m in Sources */,
+				CCD67689238637B300B857B0 /* HWCheckbox.m in Sources */,
+				CCD676742386256100B857B0 /* ViewController+MASAdditions.m in Sources */,
+				CCD676732386256100B857B0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				CCD6769B23865B1800B857B0 /* HWSegmentedControl.m in Sources */,
+				CCD676752386256100B857B0 /* MASCompositeConstraint.m in Sources */,
+				CCD676532386220900B857B0 /* HWAngleDeviationSliderCell.m in Sources */,
+				CCD676772386256100B857B0 /* MASLayoutConstraint.m in Sources */,
+				CCD676792386256100B857B0 /* View+MASAdditions.m in Sources */,
+				CCD676782386256100B857B0 /* NSArray+MASAdditions.m in Sources */,
+				CCD676522386220900B857B0 /* HWToolSliderCell.m in Sources */,
+				CCD676AE23866B1000B857B0 /* HWToolView.m in Sources */,
 				CCD67641238621E700B857B0 /* main.m in Sources */,
+				CCD6767C2386256100B857B0 /* MASViewAttribute.m in Sources */,
+				CCD676A723865F8800B857B0 /* HWTopBlackView.m in Sources */,
+				CCD6767A2386256100B857B0 /* MASConstraint.m in Sources */,
+				CCD6769F23865D0600B857B0 /* HWDashLineView.m in Sources */,
+				CCD67690238642D400B857B0 /* HWCenterScrollView.m in Sources */,
+				CCD676AA2386672500B857B0 /* HWDashBoardPostionView.m in Sources */,
 				CCD67639238621E600B857B0 /* AppDelegate.m in Sources */,
+				CCD676812386296E00B857B0 /* HWImageTitleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +555,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = S993VCFF58;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = macOS_AppKit_Custom_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +575,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = S993VCFF58;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				INFOPLIST_FILE = macOS_AppKit_Custom_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
