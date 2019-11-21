@@ -39,6 +39,7 @@
 		CCD676A723865F8800B857B0 /* HWTopBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676A523865F8800B857B0 /* HWTopBlackView.m */; };
 		CCD676AA2386672500B857B0 /* HWDashBoardPostionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676A82386672400B857B0 /* HWDashBoardPostionView.m */; };
 		CCD676AE23866B1000B857B0 /* HWToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD676AC23866B1000B857B0 /* HWToolView.m */; };
+		CCD676B02386703B00B857B0 /* macOS_AppKit_Custom_Demo.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD676AF2386703B00B857B0 /* macOS_AppKit_Custom_Demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,7 @@
 		CCD676A92386672400B857B0 /* HWDashBoardPostionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDashBoardPostionView.h; sourceTree = "<group>"; };
 		CCD676AC23866B1000B857B0 /* HWToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToolView.m; sourceTree = "<group>"; };
 		CCD676AD23866B1000B857B0 /* HWToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToolView.h; sourceTree = "<group>"; };
+		CCD676AF2386703B00B857B0 /* macOS_AppKit_Custom_Demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = macOS_AppKit_Custom_Demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		CCD6762B238621E600B857B0 = {
 			isa = PBXGroup;
 			children = (
+				CCD676AF2386703B00B857B0 /* macOS_AppKit_Custom_Demo.png */,
 				CCD6769723864DD800B857B0 /* Header.h */,
 				CCD676552386223500B857B0 /* PrefixHeader.pch */,
 				CCD67636238621E600B857B0 /* macOS_AppKit_Custom_Demo */,
@@ -378,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD676B02386703B00B857B0 /* macOS_AppKit_Custom_Demo.png in Resources */,
 				CCD6763B238621E700B857B0 /* Assets.xcassets in Resources */,
 				CCD6763E238621E700B857B0 /* MainMenu.xib in Resources */,
 				CCD6767D2386256100B857B0 /* Info.plist in Resources */,
