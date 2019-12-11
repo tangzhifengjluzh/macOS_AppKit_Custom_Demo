@@ -14,7 +14,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSButton (TitleColor)
-
+@property (nonatomic, assign) BOOL               touch;
+@property (nonatomic, assign) BOOL               allowTouch;
+@property (nonatomic, assign) BOOL               imageButton;
 @end
 
 NS_ASSUME_NONNULL_END
