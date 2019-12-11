@@ -306,6 +306,8 @@
     }];
     
    HWImageTitleButton *_buttonRun = [HWImageTitleButton buttonWithTitle:@"点击恢复坐标" target:self action:@selector(buttonClick:) tag:5002 superView:kContentView];
+    [_buttonRun setValue:@(YES) forKey:@"allowTouch"];
+
     float width = 100;
     [_buttonRun mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.equalTo(buttonBottom.mas_top).with.offset(-5);

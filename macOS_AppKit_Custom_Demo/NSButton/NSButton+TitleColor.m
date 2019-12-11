@@ -84,15 +84,34 @@ static char imageButtonKey; //那么的key
 - (void)mouseEntered:(NSEvent *)event
 {
     NSLog(@"mouseEntered");
-    self.layer.backgroundColor = [NSColor orangeColor].CGColor;
-    self.touch = YES;
-         [self setTitle:self.title];
+//    self.layer.backgroundColor = [NSColor orangeColor].CGColor;
+//    self.touch = YES;
+//         [self setTitle:self.title];
+    
+    if (self.allowTouch) {
+        if (self.imageButton) {
+            self.alphaValue = 0.8;
+            return;
+        }
+        self.touch = YES;
+        self.layer.backgroundColor = [NSColor orangeColor].CGColor;
+        [self setTitle:self.title];
+    }
 }
 - (void)mouseExited:(NSEvent *)event
 {
     NSLog(@"mouseExited");
-    self.layer.backgroundColor = [NSColor whiteColor].CGColor;
-    self.touch = NO;
-     [self setTitle:self.title];
+//    self.layer.backgroundColor = [NSColor whiteColor].CGColor;
+//    self.touch = NO;
+//     [self setTitle:self.title];
+    if (self.allowTouch) {
+        if (self.imageButton) {
+            self.alphaValue = 1;
+            return;
+        }
+        self.touch = NO;
+        self.layer.backgroundColor = [NSColor whiteColor].CGColor;
+        [self setTitle:self.title];
+    }
 }
 @end

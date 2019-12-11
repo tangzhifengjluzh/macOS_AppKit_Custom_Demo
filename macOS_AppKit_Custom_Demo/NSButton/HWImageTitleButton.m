@@ -27,6 +27,8 @@
         self.wantsLayer = YES;
         self.layer.cornerRadius = 4;
         self.bezelColor = [NSColor redColor];
+        [self setValue:@(YES) forKey:@"allowTouch"];
+        [self setValue:@(YES) forKey:@"imageButton"];
         self.layer.backgroundColor = kColorFromRGB(0xFFA500).CGColor;
         if (superView) {
             [superView addSubview:self];
